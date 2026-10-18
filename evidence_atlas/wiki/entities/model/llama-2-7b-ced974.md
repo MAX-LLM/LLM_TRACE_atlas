@@ -1,0 +1,40 @@
+---
+title: "Llama-2 7B"
+entity_type: "model"
+report_count: 3
+page_type: entity
+---
+
+# Llama-2 7B
+
+**Entity type:** Model
+
+**Linked reports:** 3
+
+## Publication years
+
+| Classification | Reports |
+|---|---:|
+| 2025 | 3 |
+
+## Dataset validation
+
+| Classification | Reports |
+|---|---:|
+| Level 1: Single EHR dataset validation | 2 |
+| Unclear dataset breadth | 1 |
+
+## Clinical translation
+
+| Classification | Reports |
+|---|---:|
+| Stage A: Retrospective/offline evaluation | 3 |
+
+## Linked studies
+
+- [Deidentifying Medical Documents with Local, Privacy-Preserving Large Language Models: The LLM-Anonymizer](../../studies/REC00539.md) (2025; REC00539)
+- [Application of large language models in clinical record correction: a comprehensive study on various retraining methods](../../studies/REC02393.md) (2025; REC02393)
+- [Optimizing Tumor Information Extraction from Pathology Reports Using Large Language Models: The Advantage of Few-Shot Learning.](../../studies/REC04692.md) (2025; REC04692)
+
+---
+The two primary profile labels use titles and abstracts with targeted full-text corrections; descriptive fields, including trial evidence, use titles and abstracts. Full texts should be consulted before clinical or policy inference.

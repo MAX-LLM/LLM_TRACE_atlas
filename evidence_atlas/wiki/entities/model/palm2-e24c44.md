@@ -1,0 +1,37 @@
+---
+title: "PaLM2"
+entity_type: "model"
+report_count: 1
+page_type: entity
+---
+
+# PaLM2
+
+**Entity type:** Model
+
+**Linked reports:** 1
+
+## Publication years
+
+| Classification | Reports |
+|---|---:|
+| 2024 | 1 |
+
+## Dataset validation
+
+| Classification | Reports |
+|---|---:|
+| Level 1: Single EHR dataset validation | 1 |
+
+## Clinical translation
+
+| Classification | Reports |
+|---|---:|
+| Stage A: Retrospective/offline evaluation | 1 |
+
+## Linked studies
+
+- [A systematic evaluation of the performance of GPT-4 and PaLM2 to diagnose comorbidities in MIMIC-IV patients.](../../studies/REC01982.md) (2024; REC01982)
+
+---
+The two primary profile labels use titles and abstracts with targeted full-text corrections; descriptive fields, including trial evidence, use titles and abstracts. Full texts should be consulted before clinical or policy inference.

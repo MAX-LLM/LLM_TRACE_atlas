@@ -1,0 +1,1176 @@
+entity_type,entity_type_label,entity,report_count
+clinical_specialty,Clinical specialty,Cross-specialty or general,572
+clinical_specialty,Clinical specialty,Radiology,453
+clinical_specialty,Clinical specialty,Oncology,284
+clinical_specialty,Clinical specialty,Other specialty,248
+clinical_specialty,Clinical specialty,Neurology,93
+clinical_specialty,Clinical specialty,Pathology and laboratory medicine,91
+clinical_specialty,Clinical specialty,Emergency medicine,88
+clinical_specialty,Clinical specialty,Cardiology,79
+clinical_specialty,Clinical specialty,Critical care,78
+clinical_specialty,Clinical specialty,Surgery,76
+clinical_specialty,Clinical specialty,Psychiatry and mental health,54
+clinical_specialty,Clinical specialty,Paediatrics,48
+clinical_specialty,Clinical specialty,Pharmacy and medicines management,47
+clinical_specialty,Clinical specialty,Obstetrics and gynaecology,25
+clinical_specialty,Clinical specialty,Primary care,23
+clinical_specialty,Clinical specialty,Internal medicine,21
+clinical_specialty,Clinical specialty,Nephrology,16
+clinical_specialty,Clinical specialty,Unclear,15
+clinical_specialty,Clinical specialty,Infectious diseases,1
+clinical_specialty,Clinical specialty,Pulmonology,1
+clinical_translation_stage,Clinical translation,Stage A: Retrospective/offline evaluation,1875
+clinical_translation_stage,Clinical translation,"Stage C: Integrated, interventional, or outcome-impact evaluation",94
+clinical_translation_stage,Clinical translation,Stage B: Prospective or standalone user-facing evaluation,65
+dataset_provenance,Dataset provenance,Unclear,1045
+dataset_provenance,Dataset provenance,Local/institutional only,569
+dataset_provenance,Dataset provenance,Public/shareable only,367
+dataset_provenance,Dataset provenance,Mixed public and local/institutional,53
+dataset_validation_level,Dataset validation,Level 1: Single EHR dataset validation,1134
+dataset_validation_level,Dataset validation,Level 2: Multiple EHR datasets or sites,501
+dataset_validation_level,Dataset validation,Unclear dataset breadth,336
+dataset_validation_level,Dataset validation,Level 3: Mixed public and private EHR validation,63
+human_evidence,Human evaluation,Not reported,1025
+human_evidence,Human evaluation,Other human evaluation,336
+human_evidence,Human evaluation,Clinician adjudication or error review,321
+human_evidence,Human evaluation,Clinician-created reference labels,318
+human_evidence,Human evaluation,Direct physician/clinician comparator,202
+human_evidence,Human evaluation,Human-in-the-loop workflow,88
+human_evidence,Human evaluation,Patient-facing evaluation,25
+llm_use_mode,LLM use mode,Prompting,1024
+llm_use_mode,LLM use mode,Information extraction,876
+llm_use_mode,LLM use mode,Other reported LLM use mode,567
+llm_use_mode,LLM use mode,Fine-tuning,398
+llm_use_mode,LLM use mode,Embeddings/classification,348
+llm_use_mode,LLM use mode,Summarization,274
+llm_use_mode,LLM use mode,Retrieval-augmented generation,213
+llm_use_mode,LLM use mode,Multimodal language model,170
+llm_use_mode,LLM use mode,Agentic workflow,82
+llm_use_mode,LLM use mode,Unclear,21
+model,Model,Unclear,701
+model,Model,GPT-4,239
+model,Model,GPT-4o,149
+model,Model,GPT-3.5,73
+model,Model,ChatGPT,67
+model,Model,ChatGPT-4,45
+model,Model,ChatGPT-4o,34
+model,Model,Gemini,30
+model,Model,DeepSeek-R1,28
+model,Model,GPT,27
+model,Model,GPT-2,27
+model,Model,GPT-5,21
+model,Model,GPT-3.5 Turbo,19
+model,Model,LLaMA,18
+model,Model,Mistral,18
+model,Model,GPT-3.5-turbo,17
+model,Model,GPT-4.1,16
+model,Model,Llama 3.1,16
+model,Model,GPT-4 Turbo,15
+model,Model,ChatGPT-3.5,14
+model,Model,Claude 3.5 Sonnet,14
+model,Model,DeepSeek,14
+model,Model,T5,14
+model,Model,GPT-4o mini,13
+model,Model,Gemini 2.5 Pro,13
+model,Model,Llama-3,13
+model,Model,Llama 2,12
+model,Model,ChatGPT 3.5,11
+model,Model,DeepSeek-V3,11
+model,Model,Gemma,11
+model,Model,Llama 3,11
+model,Model,Mistral 7B,11
+model,Model,Mistral-7B,11
+model,Model,ChatGPT 4.0,10
+model,Model,GPT-4o-mini,10
+model,Model,LLaMA3,10
+model,Model,Llama,10
+model,Model,Llama 3.1 8B,10
+model,Model,Llama 3.3,10
+model,Model,BioGPT,9
+model,Model,GPT-4.0,9
+model,Model,Llama 3.1 70B,9
+model,Model,Gemini 1.5 Pro,8
+model,Model,Llama2,8
+model,Model,Llama3,8
+model,Model,Mixtral,8
+model,Model,BART,7
+model,Model,BioMistral,7
+model,Model,ChatGPT-4.0,7
+model,Model,Flan-T5,7
+model,Model,Gemini 2.0 Flash,7
+model,Model,Google Gemini,7
+model,Model,LLaMA-2,7
+model,Model,Llama 3.2,7
+model,Model,Llama-3.1-8B,7
+model,Model,Qwen,7
+model,Model,Bard,6
+model,Model,DeepSeek R1,6
+model,Model,GPT-3,6
+model,Model,Llama-3-8B,6
+model,Model,MedGemma,6
+model,Model,ChatGPT 4o,5
+model,Model,Claude 3.5,5
+model,Model,Claude 3.7 Sonnet,5
+model,Model,GPT-4.1-mini,5
+model,Model,GatorTronGPT,5
+model,Model,LLaMA-3,5
+model,Model,Llama 3.3 70B,5
+model,Model,Llama-2,5
+model,Model,Llama3-8B,5
+model,Model,OpenBioLLM,5
+model,Model,Qwen3-8B,5
+model,Model,BioMistral-7B,4
+model,Model,ChatGLM,4
+model,Model,ChatGPT 4,4
+model,Model,Claude,4
+model,Model,Claude 3 Opus,4
+model,Model,GPT-4-turbo,4
+model,Model,GPT-4.5,4
+model,Model,GPT-4V,4
+model,Model,GatorTron,4
+model,Model,Gemini 2.5 Flash,4
+model,Model,LLaMA 3,4
+model,Model,LLaMA 3.1 8B,4
+model,Model,LLaMA-3-8B,4
+model,Model,LLaMA-3.1,4
+model,Model,LLaVA,4
+model,Model,Llama 3 8B,4
+model,Model,Llama 3.1 405B,4
+model,Model,Llama-2-13B,4
+model,Model,Llama-3 8B,4
+model,Model,Llama-3.1,4
+model,Model,Llama-3.1-8B-Instruct,4
+model,Model,Llama-3.3-70B,4
+model,Model,Llama2-13B,4
+model,Model,MedGemma-27B,4
+model,Model,Meditron,4
+model,Model,Mixtral-8x7B,4
+model,Model,Qwen3,4
+model,Model,Vicuna,4
+model,Model,ChatGLM-6B,3
+model,Model,ChatGLM4,3
+model,Model,ChatGPT-5,3
+model,Model,Claude Sonnet 4,3
+model,Model,Claude-3.5-Sonnet,3
+model,Model,ClinicalT5,3
+model,Model,GPT-4-Turbo,3
+model,Model,GPT-5.2,3
+model,Model,GPT-o3,3
+model,Model,Gemini 1.5,3
+model,Model,Gemini 1.5 Flash,3
+model,Model,Gemini 2.5,3
+model,Model,Gemini Pro,3
+model,Model,Gemini-1.5-Flash,3
+model,Model,Gemma-7B,3
+model,Model,Gemma3,3
+model,Model,LLaMA2,3
+model,Model,Llama 2 13B,3
+model,Model,Llama 2 70B,3
+model,Model,Llama 2 7B,3
+model,Model,Llama 3 70B,3
+model,Model,Llama 3.1 8b,3
+model,Model,Llama 3.3-70B,3
+model,Model,Llama 4,3
+model,Model,Llama 70B,3
+model,Model,Llama-2 7B,3
+model,Model,Llama-3-70B,3
+model,Model,Llama-3-70b,3
+model,Model,Llama-3.1 8B,3
+model,Model,Llama-3.1-70B-Instruct,3
+model,Model,Llama2 13B,3
+model,Model,Llama2 70B,3
+model,Model,Llama3 8B,3
+model,Model,Llama3.1-8B,3
+model,Model,MedAlpaca,3
+model,Model,Mixtral 8x7B,3
+model,Model,PMC-LLaMA,3
+model,Model,Phi4,3
+model,Model,Pythia,3
+model,Model,Qwen-2.5,3
+model,Model,Qwen2.5,3
+model,Model,Qwen2.5-14B,3
+model,Model,Qwen2.5-3B-Instruct,3
+model,Model,Qwen2.5-7B-Instruct,3
+model,Model,gpt-3.5-turbo-1106,3
+model,Model,gpt-4-1106-preview,3
+model,Model,gpt-4o-mini,3
+model,Model,o3-mini,3
+model,Model,Asclepius,2
+model,Model,BLIP-2,2
+model,Model,CXR-LLaVA,2
+model,Model,ChatGLM2-6B,2
+model,Model,ChatGPT 5.0,2
+model,Model,ChatGPT3.5,2
+model,Model,ChatGPT4,2
+model,Model,Claude 3,2
+model,Model,Claude 3.5-Sonnet,2
+model,Model,Claude 3.7,2
+model,Model,Claude Opus,2
+model,Model,Claude Sonnet 3.5,2
+model,Model,Claude-3-Opus,2
+model,Model,Claude-3.5,2
+model,Model,Claude-3.5 Sonnet,2
+model,Model,Copilot,2
+model,Model,DeepSeek V3,2
+model,Model,DeepSeek-R1-14B,2
+model,Model,DeepSeek-R1-Distill-Llama-70B,2
+model,Model,DeepSeek-R1-Distill-Llama-8B,2
+model,Model,DeepSeek-R1-Llama3.3,2
+model,Model,Deepseek-R1,2
+model,Model,Dolly,2
+model,Model,ERNIE Bot,2
+model,Model,FLAN-T5,2
+model,Model,FLAN-UL2,2
+model,Model,GLM-4-Plus,2
+model,Model,GPT-3.5-Turbo,2
+model,Model,GPT-4Vision,2
+model,Model,GPT-5 mini,2
+model,Model,GPT-5-mini,2
+model,Model,GPT-OSS-20B,2
+model,Model,GPT-o1,2
+model,Model,GPT-oss,2
+model,Model,GPT-oss-20B,2
+model,Model,GPT4-Turbo,2
+model,Model,Gemini 2.0,2
+model,Model,Gemini 2.0 Flash Thinking,2
+model,Model,Gemini-1.5-Pro,2
+model,Model,Gemini-2.5-Flash,2
+model,Model,Gemma 2,2
+model,Model,Gemma-2,2
+model,Model,Gemma-2-9B,2
+model,Model,Google Gemini 1.5 Pro,2
+model,Model,Google Gemini Advanced,2
+model,Model,Grok,2
+model,Model,Grok-3,2
+model,Model,Grok-4,2
+model,Model,HuatuoGPT,2
+model,Model,IT5,2
+model,Model,LLaMA 3 8B,2
+model,Model,LLaMA 3.1,2
+model,Model,LLaMA 3.1-8B,2
+model,Model,LLaMA-2 70B,2
+model,Model,LLaMA-3.3-70B,2
+model,Model,LLaMA-65B,2
+model,Model,LLaMA2-13B,2
+model,Model,LLaMA3-8B,2
+model,Model,LLaVA-Med,2
+model,Model,Llama 2-70B,2
+model,Model,Llama 3-8b,2
+model,Model,Llama 3.1-8B,2
+model,Model,Llama-2 13B,2
+model,Model,Llama-2 70B,2
+model,Model,Llama-2.0-13b,2
+model,Model,Llama-3-8B-UltraMedical,2
+model,Model,Llama-3.1-70B,2
+model,Model,Llama-3.1-70b,2
+model,Model,Llama-3.1-8b,2
+model,Model,Llama-3.3 70B,2
+model,Model,Llama-3.3-70B-Instruct,2
+model,Model,Llama-70B,2
+model,Model,Llama2 7B,2
+model,Model,Llama2-7B,2
+model,Model,Llama3 70B,2
+model,Model,Mamba,2
+model,Model,Med-PaLM 2,2
+model,Model,Med42,2
+model,Model,MedGemma-27B-text-it,2
+model,Model,Meditron-7B,2
+model,Model,Meta-Llama-3.1-8B,2
+model,Model,Mistral Large,2
+model,Model,Mistral Small,2
+model,Model,Mistral-7B-Instruct,2
+model,Model,Mistral-7B-Instruct-v0.2,2
+model,Model,Mistral-7b,2
+model,Model,Mixtral 8X7B,2
+model,Model,Mixtral 8x7b,2
+model,Model,Mixtral 8×7B,2
+model,Model,Mixtral-8 × 7B,2
+model,Model,Mixtral-8x7b,2
+model,Model,OpenAI GPT-5,2
+model,Model,OpenAI-o3,2
+model,Model,PULSE,2
+model,Model,PaLM 2,2
+model,Model,Palmyra-Med 70B,2
+model,Model,Perplexity,2
+model,Model,Phi-3,2
+model,Model,Qwen 2.5,2
+model,Model,Qwen 3,2
+model,Model,Qwen-14B-Chat,2
+model,Model,Qwen-3,2
+model,Model,Qwen-72B,2
+model,Model,Qwen2,2
+model,Model,Qwen2.5 7B,2
+model,Model,Qwen2.5-32B,2
+model,Model,Qwen2.5-72B,2
+model,Model,Qwen2.5-7B,2
+model,Model,Qwen3-14B,2
+model,Model,Qwen3-235B,2
+model,Model,Qwen3-235B-A22B,2
+model,Model,Qwen3-4B,2
+model,Model,Qwen3:14B,2
+model,Model,Tongyi Qianwen,2
+model,Model,XrayGPT,2
+model,Model,Zephyr-7b-beta,2
+model,Model,gpt-4–1106-preview,2
+model,Model,gpt-oss-120B,2
+model,Model,gpt-oss-20B,2
+model,Model,gpt-oss-20b,2
+model,Model,o1,2
+model,Model,o1-mini,2
+model,Model,o1-preview,2
+model,Model,o3,2
+model,Model,o4-mini,2
+model,Model,text-davinci-003,2
+model,Model,4o,1
+model,Model,AI-Growth-Lab_llama-2-7b-clinical-innovation,1
+model,Model,AMIE,1
+model,Model,Alpaca-2,1
+model,Model,Alpaca-7B,1
+model,Model,Anthropic Claude 3.5 Haiku,1
+model,Model,Anthropic Claude 3.5 Opus,1
+model,Model,Anthropic Claude 3.5 Sonnet,1
+model,Model,Any-to-Any Vision-Language Model,1
+model,Model,Apollo2,1
+model,Model,Apollo2B,1
+model,Model,Athene V2,1
+model,Model,AtlasGPT,1
+model,Model,BART (Bidirectional and Auto-Regressive Transformer),1
+model,Model,BART-base,1
+model,Model,BARTcnn,1
+model,Model,BLIP-VQA,1
+model,Model,BLIP2,1
+model,Model,Baichuan,1
+model,Model,Baichuan-13b,1
+model,Model,Baichuan-7b,1
+model,Model,Baichuan2,1
+model,Model,Baichuan2-13B-Chat,1
+model,Model,BanglaLLM,1
+model,Model,BanglaT5,1
+model,Model,Bard (Gemini),1
+model,Model,Bing,1
+model,Model,Bio GPT,1
+model,Model,Bio-GPT,1
+model,Model,Bio-LLaVA,1
+model,Model,BioGPT-Large,1
+model,Model,BioMedGPT,1
+model,Model,BioMistral 7B,1
+model,Model,BioMistral-7b,1
+model,Model,BioMistral-DARE-7B,1
+model,Model,BiomedGPT-Base,1
+model,Model,BiomedGPT-Large,1
+model,Model,BiomedGPT-XLarge,1
+model,Model,Biomni,1
+model,Model,Bloom,1
+model,Model,BrainGPT,1
+model,Model,Brainfound,1
+model,Model,C2RG,1
+model,Model,CARE-Dx,1
+model,Model,CLAIR (Comprehensive LLM Artificial Intelligence Responder),1
+model,Model,CLAIR-Long,1
+model,Model,CLAIR-Short,1
+model,Model,CMR-LLaMA,1
+model,Model,COMPOSER-LLM,1
+model,Model,CPLLM,1
+model,Model,CT-CHAT,1
+model,Model,CTIS-QA,1
+model,Model,CVD-thinking,1
+model,Model,CX-Mind,1
+model,Model,CXR-RePaiR,1
+model,Model,CancerLLM,1
+model,Model,ChatGLM-2,1
+model,Model,ChatGLM-Med,1
+model,Model,ChatGLM2,1
+model,Model,ChatGLM2-6b,1
+model,Model,ChatGLM3-6B,1
+model,Model,ChatGLM3-6b,1
+model,Model,ChatGLM3.5,1
+model,Model,ChatGLM4+Knowledge base,1
+model,Model,ChatGPT (GPT-3.5),1
+model,Model,ChatGPT (version 4.0),1
+model,Model,ChatGPT 5.2,1
+model,Model,ChatGPT 5.4,1
+model,Model,ChatGPT Enterprise Model 5.2 Thinking,1
+model,Model,ChatGPT Health,1
+model,Model,ChatGPT V.3.5,1
+model,Model,ChatGPT o1,1
+model,Model,ChatGPT-3,1
+model,Model,ChatGPT-3.5 (gpt-3.5-turbo-16k),1
+model,Model,ChatGPT-4 Omni (GPT-4o),1
+model,Model,ChatGPT-4 Turbo,1
+model,Model,ChatGPT-4o mini,1
+model,Model,ChatGPT-4o-Latest,1
+model,Model,ChatGPT-4o-latest,1
+model,Model,ChatGPT-4omini,1
+model,Model,ChatGPT-5 Instant,1
+model,Model,ChatGPT-5 Thinking,1
+model,Model,ChatGPT-5.2 Thinking,1
+model,Model,ChatGPT-o1,1
+model,Model,ChatGPT-o4mini,1
+model,Model,ChatGPT4.0,1
+model,Model,ChatGPT4o,1
+model,Model,ChatRadio-Valuer,1
+model,Model,CheXagent,1
+model,Model,ChestX-GPT,1
+model,Model,ChestX-Reasoner,1
+model,Model,Chronos,1
+model,Model,Claude 2.0,1
+model,Model,Claude 2.1,1
+model,Model,Claude 3.5 Haiku,1
+model,Model,Claude 4.1 Opus,1
+model,Model,Claude Sonnet,1
+model,Model,Claude Sonnet 4.5,1
+model,Model,Claude-2,1
+model,Model,Claude-3 Opus,1
+model,Model,Claude-3.5-Haiku,1
+model,Model,Claude-3.5-sonnet,1
+model,Model,Claude-3.7-Sonnet,1
+model,Model,Claude-4,1
+model,Model,Claude-4 Opus,1
+model,Model,Claude3-Opus,1
+model,Model,Clinical Camel,1
+model,Model,Clinical-T5-Large,1
+model,Model,ClinicalBLIP,1
+model,Model,ClinicalCamel,1
+model,Model,ClinicalGPT,1
+model,Model,ClinicalMamba (130M),1
+model,Model,ClinicalMamba (2.8B),1
+model,Model,CoR-MoLE,1
+model,Model,CodeLlama-7B,1
+model,Model,Cohere Command-A,1
+model,Model,ConfiDx,1
+model,Model,DECIPHER-LLM,1
+model,Model,DRG-LLaMA-7B,1
+model,Model,DT-GPT,1
+model,Model,DeLL,1
+model,Model,DeLLiriuM,1
+model,Model,Deductive Mistral-7B,1
+model,Model,Deep Seek v3.1,1
+model,Model,DeepSeek 70B,1
+model,Model,DeepSeek R1 8B,1
+model,Model,DeepSeek R1 Distill Llama 8B,1
+model,Model,DeepSeek R1 distilled Llama 8b,1
+model,Model,DeepSeek R1:7B,1
+model,Model,DeepSeek V3.1,1
+model,Model,DeepSeek VL2,1
+model,Model,DeepSeek-R1 1.5B,1
+model,Model,DeepSeek-R1-671B,1
+model,Model,DeepSeek-R1-70B,1
+model,Model,DeepSeek-R1-Distill-Qwen-32B,1
+model,Model,DeepSeek-V3 (DSV3),1
+model,Model,DeepSeek-V3-0324,1
+model,Model,DeepSeek-V3-FW,1
+model,Model,DeepSeek-V3.1-Think,1
+model,Model,DeepSeek-v3-r1,1
+model,Model,DeepSeekR1-Distill-Llama,1
+model,Model,DeepSeekV3,1
+model,Model,Deepseek Chat,1
+model,Model,Deepseek Reasoner,1
+model,Model,Deepseek-R1 (70B),1
+model,Model,Deepseek-R1-Distill-Llama-v3-70B,1
+model,Model,Deepseek-R1-Distill-Qwen-v2.5-32B,1
+model,Model,Deepseek-V3,1
+model,Model,Deepseek-r1 8B,1
+model,Model,Deepseek-v3-r1,1
+model,Model,Delphi-2M,1
+model,Model,DermFlow,1
+model,Model,DiaLLM,1
+model,Model,DistilGPT2,1
+model,Model,DoKE,1
+model,Model,Dolly-v2,1
+model,Model,Dolly-v2-12b,1
+model,Model,Doubao 1.5,1
+model,Model,DryEye-LLM,1
+model,Model,DuEL-Med,1
+model,Model,EEVE-Korean-Instruct-10.8B,1
+model,Model,EHR-KnowGen,1
+model,Model,EMR-LLM,1
+model,Model,ERNIE,1
+model,Model,ERNIE-4.0-Turbo-8K,1
+model,Model,ESC Chat,1
+model,Model,EYE-Llama,1
+model,Model,EchoAtlas,1
+model,Model,EchoGPT,1
+model,Model,EleutherAI/pythia-410m-deduped,1
+model,Model,Ernie Bot 4.0 Turbo,1
+model,Model,EyeFM,1
+model,Model,FHIR-GPT,1
+model,Model,FLAN-T5-XL,1
+model,Model,Falcon,1
+model,Model,Falcon 40B,1
+model,Model,Falcon 7B,1
+model,Model,Falcon-40B,1
+model,Model,Falcon-7B,1
+model,Model,Falcon-RW-1B,1
+model,Model,Falcon3 7B,1
+model,Model,Falcon3-10b,1
+model,Model,FastChat-T5 3B,1
+model,Model,Flan-T5 XL,1
+model,Model,Flan-T5 XXL,1
+model,Model,Flan-T5-Large,1
+model,Model,Flan-T5-xl,1
+model,Model,Flan-T5-xxl,1
+model,Model,FlanT5,1
+model,Model,GEMMA-2,1
+model,Model,GLM-130B,1
+model,Model,GLM-4,1
+model,Model,GLM-4-9B-chat,1
+model,Model,GLM-4-Air,1
+model,Model,GLM-4-air,1
+model,Model,GLM4,1
+model,Model,GLM4-9B,1
+model,Model,GPT 4o Mini,1
+model,Model,GPT family,1
+model,Model,GPT o3 Mini,1
+model,Model,GPT-2 (1.5B),1
+model,Model,GPT-2 XL,1
+model,Model,GPT-3.5 Turbo 16k,1
+model,Model,GPT-3.5 fine-tuned,1
+model,Model,GPT-3.5-turbo (ChatGPT),1
+model,Model,GPT-4 (0613),1
+model,Model,GPT-4 (version 0613),1
+model,Model,GPT-4 128K,1
+model,Model,GPT-4 Medical,1
+model,Model,GPT-4 Omni,1
+model,Model,GPT-4 fine-tuned,1
+model,Model,GPT-4 vision-preview,1
+model,Model,GPT-4-0314,1
+model,Model,GPT-4-turbo-128k,1
+model,Model,GPT-4-vision,1
+model,Model,GPT-4.0 mini,1
+model,Model,GPT-4.5-preview,1
+model,Model,GPT-4O,1
+model,Model,GPT-4V (GPT-4 with Vision),1
+model,Model,GPT-4o (0513),1
+model,Model,GPT-4o (gpt-4o-11-20),1
+model,Model,GPT-4o 05-13,1
+model,Model,GPT-4o Mini,1
+model,Model,GPT-4o-2024-05-13,1
+model,Model,GPT-4o-APO,1
+model,Model,GPT-4o-mini-APO,1
+model,Model,GPT-J,1
+model,Model,GPT-Neo,1
+model,Model,GPT-OSS,1
+model,Model,GPT-OSS (120B),1
+model,Model,GPT-OSS 20B,1
+model,Model,GPT-OSS-120b,1
+model,Model,GPT-OSS:20B,1
+model,Model,GPT-o3 high reasoning,1
+model,Model,GPT-o3 low reasoning,1
+model,Model,GPT-o3 medium reasoning,1
+model,Model,GPT-oss-120B,1
+model,Model,GPT-oss:20b,1
+model,Model,GPT3davinci,1
+model,Model,GPT4DFCI,1
+model,Model,GPT4oTranscribe,1
+model,Model,GPTs,1
+model,Model,GatorTron-3.9B,1
+model,Model,GatorTronGPT-20B,1
+model,Model,GatorTronLlama,1
+model,Model,Gemini 1.0 Pro,1
+model,Model,Gemini 1.5-Flash,1
+model,Model,Gemini 1.5-Pro,1
+model,Model,Gemini 2,1
+model,Model,Gemini 2.0-Flash-001,1
+model,Model,Gemini 3,1
+model,Model,Gemini Advanced,1
+model,Model,Gemini Flash,1
+model,Model,Gemini Ultra,1
+model,Model,Gemini Ultra 1.0,1
+model,Model,Gemini-1.0-pro,1
+model,Model,Gemini-1.5,1
+model,Model,Gemini-1.5-Flash-001,1
+model,Model,Gemini-1.5-Flash-002,1
+model,Model,Gemini-1.5-flash,1
+model,Model,Gemini-2.0-Flash,1
+model,Model,Gemini-2.5-Pro,1
+model,Model,Gemini-2.5-pro,1
+model,Model,Gemini-Flash-2.0,1
+model,Model,Gemini-Pro,1
+model,Model,Gemini-Pro-Vision,1
+model,Model,Gemini-Ultra,1
+model,Model,GeminiPro,1
+model,Model,Gemma 12B,1
+model,Model,Gemma 2 27B,1
+model,Model,Gemma 27B,1
+model,Model,Gemma 2:2b,1
+model,Model,Gemma 2:9B,1
+model,Model,Gemma 2B,1
+model,Model,Gemma 3 27B,1
+model,Model,Gemma 3:27B,1
+model,Model,Gemma 3:4B,1
+model,Model,Gemma 4B,1
+model,Model,Gemma-12B,1
+model,Model,Gemma-2-27b-it,1
+model,Model,Gemma-2-9B-Instruct,1
+model,Model,Gemma-2-9b,1
+model,Model,Gemma-27B-Instruct,1
+model,Model,Gemma-3 27B,1
+model,Model,Gemma-3-12B-it,1
+model,Model,Gemma-3-27B,1
+model,Model,Gemma-3-4B-it,1
+model,Model,Gemma2 27 billion,1
+model,Model,Gemma2 27B,1
+model,Model,Gemma2 9B,1
+model,Model,Gemma2-2b,1
+model,Model,Gemma2-9b,1
+model,Model,Gemma2:9b-instruct,1
+model,Model,Gemma2B,1
+model,Model,Gemma3 4b,1
+model,Model,Gemma3-27b,1
+model,Model,Gemma3-4B,1
+model,Model,Gemma3:12b,1
+model,Model,Gemma3:27b,1
+model,Model,Gemma:7b-instruct,1
+model,Model,Generative Deep Patient (GDP),1
+model,Model,Generative Pretrained Transformer 4 (GPT-4),1
+model,Model,Glio-LLaMA-Vision,1
+model,Model,Google GEMINI,1
+model,Model,Google Gemini Pro 1.0,1
+model,Model,Granite,1
+model,Model,Grok (v4-0709),1
+model,Model,Grok 3,1
+model,Model,Grok 4,1
+model,Model,Grok 4.0,1
+model,Model,Grok-2,1
+model,Model,H-LLaMA,1
+model,Model,HC-LLM,1
+model,Model,HeartDX-LM,1
+model,Model,HepaPathGPT,1
+model,Model,HistoGPT,1
+model,Model,Huatuo,1
+model,Model,IDEFICS,1
+model,Model,IDEFICS-80B,1
+model,Model,INF-72B,1
+model,Model,IndicBART,1
+model,Model,InstructBLIP,1
+model,Model,InstructGPT,1
+model,Model,JREwBART,1
+model,Model,JSL-MedLlama,1
+model,Model,Jurassic-2,1
+model,Model,KG-LLaVA,1
+model,Model,Kimi,1
+model,Model,Kimi-K2,1
+model,Model,L4DT,1
+model,Model,LEDbooksum,1
+model,Model,LEDclinical,1
+model,Model,LEDlegal,1
+model,Model,LEME,1
+model,Model,LKAN,1
+model,Model,LLAMA-3,1
+model,Model,LLAMAv3.2,1
+model,Model,LLM-CXR,1
+model,Model,LLM-RG4,1
+model,Model,LLM-RadSum,1
+model,Model,LLM4DEU,1
+model,Model,LLaMA (7B),1
+model,Model,LLaMA 13B,1
+model,Model,LLaMA 2,1
+model,Model,LLaMA 2 variants,1
+model,Model,LLaMA 2–70B,1
+model,Model,LLaMA 3 405B,1
+model,Model,LLaMA 3 70B,1
+model,Model,LLaMA 3 8b,1
+model,Model,LLaMA 3.1 70B,1
+model,Model,LLaMA 3.1 Instruct,1
+model,Model,LLaMA 3.1-70B,1
+model,Model,LLaMA 3.2,1
+model,Model,LLaMA 3.2 1B,1
+model,Model,LLaMA 3.2 3B,1
+model,Model,LLaMA 3.2-1B,1
+model,Model,LLaMA 3.3,1
+model,Model,LLaMA 3.3 (70b),1
+model,Model,LLaMA 3.3 70B,1
+model,Model,LLaMA 3B,1
+model,Model,LLaMA 8B,1
+model,Model,LLaMA models,1
+model,Model,LLaMA-2 13B,1
+model,Model,LLaMA-3 (70B),1
+model,Model,LLaMA-3-70B,1
+model,Model,LLaMA-3.1 8B Instruct,1
+model,Model,LLaMA-3.1-405B,1
+model,Model,LLaMA-3.1-Instruct-8B,1
+model,Model,LLaMA-3.2-3B,1
+model,Model,LLaMA-3.3 (70B),1
+model,Model,LLaMA-Clinic,1
+model,Model,LLaMA-MS,1
+model,Model,LLaMA2-EHR,1
+model,Model,LLaMA3-70B,1
+model,Model,LLaMA3.1,1
+model,Model,LLaMA3.1-70B,1
+model,Model,LLaMA3.3-70B,1
+model,Model,LLaMa,1
+model,Model,LLaMa-3,1
+model,Model,LLaMa-3.3,1
+model,Model,LUMEN,1
+model,Model,LVM-Med,1
+model,Model,Lang1,1
+model,Model,Lang1-1B,1
+model,Model,Libra,1
+model,Model,Lingdan Pre-trained LLM,1
+model,Model,Lingdan Prescription Recommendation model (Lingdan-PR),1
+model,Model,Lingdan-TCPM-Chat Model,1
+model,Model,Lingyi Zhihui,1
+model,Model,Liver-T5,1
+model,Model,Llama 1-8B,1
+model,Model,Llama 1B,1
+model,Model,Llama 2 (7B),1
+model,Model,Llama 2 13b,1
+model,Model,Llama 2-13B,1
+model,Model,Llama 2-7B,1
+model,Model,Llama 3 70B-instruct,1
+model,Model,Llama 3 8B Instruct,1
+model,Model,Llama 3-8B,1
+model,Model,Llama 3-8B Instruct,1
+model,Model,Llama 3.0,1
+model,Model,Llama 3.0 70B,1
+model,Model,Llama 3.1 (8B),1
+model,Model,Llama 3.1 405B-instruct,1
+model,Model,Llama 3.1 8B Instruct,1
+model,Model,Llama 3.1-13B,1
+model,Model,Llama 3.1-405B-Instruct,1
+model,Model,Llama 3.1-8B-Instruct,1
+model,Model,Llama 3.1:70B,1
+model,Model,Llama 3.2 (3B),1
+model,Model,Llama 3.2 11B,1
+model,Model,Llama 3.2 1B,1
+model,Model,Llama 3.2 3B,1
+model,Model,Llama 3.2 3b,1
+model,Model,Llama 3.2-3B-Instruct,1
+model,Model,Llama 3.2-Vision-11B-Instruct,1
+model,Model,Llama 3.2:3b,1
+model,Model,Llama 3.3 70B Instruct,1
+model,Model,Llama 3.3 70b,1
+model,Model,Llama 3.3-70B-Instruct,1
+model,Model,Llama 3.3:70B,1
+model,Model,Llama 3B,1
+model,Model,Llama 405B,1
+model,Model,Llama 8B,1
+model,Model,Llama models,1
+model,Model,Llama series,1
+model,Model,Llama-2 (13B),1
+model,Model,"Llama-2 70B ""Sauerkraut""",1
+model,Model,"Llama-2 7B ""Sauerkraut""",1
+model,Model,Llama-2-13b-chat-hf,1
+model,Model,Llama-2-70B,1
+model,Model,Llama-2-70B-chat,1
+model,Model,Llama-2-70b-chat,1
+model,Model,Llama-2-70b-hf,1
+model,Model,Llama-2-7B,1
+model,Model,Llama-2-7b-chat,1
+model,Model,Llama-2-7b-chat-hf,1
+model,Model,Llama-3 (8B),1
+model,Model,Llama-3 (LLM judge),1
+model,Model,Llama-3 2B,1
+model,Model,Llama-3 70B,1
+model,Model,Llama-3 8B Instruct,1
+model,Model,Llama-3-70B-Instruct,1
+model,Model,Llama-3-70b-instruct,1
+model,Model,Llama-3-ELYZA,1
+model,Model,Llama-3-ELYZA-JP-8B,1
+model,Model,Llama-3.0 70B,1
+model,Model,Llama-3.0 8B,1
+model,Model,Llama-3.1 70B,1
+model,Model,Llama-3.1-405b,1
+model,Model,Llama-3.1-8B Instruct,1
+model,Model,Llama-3.1-8B-instruction,1
+model,Model,Llama-3.2 1B,1
+model,Model,Llama-3.2-11B,1
+model,Model,Llama-3.2-3B,1
+model,Model,Llama-3.2-3B-Instruct,1
+model,Model,Llama-3.3,1
+model,Model,Llama-3.3-70b,1
+model,Model,Llama-3.3-70b-Instruct,1
+model,Model,Llama-3b,1
+model,Model,Llama-4,1
+model,Model,Llama-4-Scout-17B-16E-Instruct,1
+model,Model,Llama-7B,1
+model,Model,Llama-8b-UltraMedical,1
+model,Model,Llama-DrugDetector-70B,1
+model,Model,Llama-v2-70B-chat,1
+model,Model,Llama-v2.0-13b,1
+model,Model,Llama2-13b,1
+model,Model,Llama2-70B,1
+model,Model,Llama2-70b,1
+model,Model,Llama2_13b,1
+model,Model,Llama2_7b,1
+model,Model,Llama3 Elyza 8B,1
+model,Model,Llama3 Instruct 70B,1
+model,Model,Llama3 Instruct 8B,1
+model,Model,Llama3-70B-chat-hf,1
+model,Model,Llama3-8B-Chinese-Chat,1
+model,Model,Llama3-8B-Instruct,1
+model,Model,Llama3-Med42-8B,1
+model,Model,Llama3-Open-Ko-8B,1
+model,Model,Llama3.1,1
+model,Model,Llama3.1 70B,1
+model,Model,Llama3.1 8B,1
+model,Model,Llama3.2-3B,1
+model,Model,Llama3.2-vision-90b-q4,1
+model,Model,Llama3.3,1
+model,Model,Llama3.3-70B,1
+model,Model,Llama3_8b,1
+model,Model,LlamaCare,1
+model,Model,LlamaMTS,1
+model,Model,LoRA-LLaMA-3,1
+model,Model,LongT5booksum,1
+model,Model,M2Trans,1
+model,Model,M3D CT2Report,1
+model,Model,M42-Health/Llama-v3-8B,1
+model,Model,MAIRA,1
+model,Model,MAIRA-Seg,1
+model,Model,MCA-RG,1
+model,Model,MERA,1
+model,Model,META-CXR,1
+model,Model,MIRA,1
+model,Model,MISTRAL AI,1
+model,Model,MPT-7B-Instruct,1
+model,Model,MS-VLM,1
+model,Model,Magistral,1
+model,Model,Magistral Small,1
+model,Model,Me-LLaMA,1
+model,Model,Me-LLaMA 13B,1
+model,Model,Me-LLaMA 70B,1
+model,Model,Me-Llama-13B,1
+model,Model,MeLLaMA-70B-chat,1
+model,Model,Med-LM,1
+model,Model,Med-MLLM,1
+model,Model,Med-MoE,1
+model,Model,Med-PaLM-2,1
+model,Model,Med-XPT,1
+model,Model,Med42 v2 8B,1
+model,Model,Med42-v2-8B,1
+model,Model,MedAlpaca-7B,1
+model,Model,MedDP,1
+model,Model,MedESM,1
+model,Model,MedFlamingo,1
+model,Model,MedFound,1
+model,Model,MedGemma-27B-Text-IT,1
+model,Model,MedGo,1
+model,Model,MedGuide-14B,1
+model,Model,MedLLaMA,1
+model,Model,MedLLaMA 2,1
+model,Model,MedLM,1
+model,Model,MedLM-1.5-Large,1
+model,Model,MedT5SQL,1
+model,Model,MedVAG,1
+model,Model,MedXChat,1
+model,Model,MediGuide-14B,1
+model,Model,MediPhi-Instruct 4B,1
+model,Model,Meditron 70B,1
+model,Model,Meditron3,1
+model,Model,Meerkat-7B,1
+model,Model,Merlin,1
+model,Model,Meta LLaMA 3.1,1
+model,Model,Meta-Llama-3-8B-Instruct,1
+model,Model,MetaGP,1
+model,Model,Microsoft Copilot,1
+model,Model,Microsoft Phi-3-medium-instruct,1
+model,Model,Microsoft Phi-3.5,1
+model,Model,MiniMedMind,1
+model,Model,Mistral (LLM judge),1
+model,Model,Mistral 22B,1
+model,Model,Mistral 24.07,1
+model,Model,Mistral 24B,1
+model,Model,Mistral Medium,1
+model,Model,Mistral NeMo,1
+model,Model,Mistral NeMo 12B,1
+model,Model,Mistral Nemo 12B,1
+model,Model,Mistral Small 24 billion,1
+model,Model,Mistral Small 24B,1
+model,Model,Mistral Small 3.1,1
+model,Model,Mistral models,1
+model,Model,Mistral series,1
+model,Model,Mistral v0.3,1
+model,Model,Mistral-2 (7B),1
+model,Model,Mistral-24B (Instruct-2501),1
+model,Model,Mistral-7B-Instruct v0.3,1
+model,Model,Mistral-7B-instruct-v0.2,1
+model,Model,Mistral-7b-instruct,1
+model,Model,Mistral-8x7b,1
+model,Model,Mistral-Instruct-v0.3-7B,1
+model,Model,Mistral-Large,1
+model,Model,Mistral-Large-2411,1
+model,Model,Mistral-NeMo-Instruct,1
+model,Model,Mistral-Nemo,1
+model,Model,Mistral-Small 3.2,1
+model,Model,Mistral-Small-24B,1
+model,Model,Mistral-Small-3.2-24B,1
+model,Model,Mistral-Small-3.2-24B-Instruct,1
+model,Model,Mistral-Small-Instruct,1
+model,Model,Mistral-small,1
+model,Model,Mistral-small-psych,1
+model,Model,Mistral:7b,1
+model,Model,Mistral:latest,1
+model,Model,Mistral_7b,1
+model,Model,Mixtral 7B,1
+model,Model,Mixtral 8×22B,1
+model,Model,Mixtral-8 × 22B,1
+model,Model,Mixtral-8x7B-Instruct-v0.1,1
+model,Model,Mixtral-8×22b,1
+model,Model,Model-1,1
+model,Model,Model-2,1
+model,Model,NS-LLM,1
+model,Model,NeuroVFM,1
+model,Model,NuExtract 2.0 (8B),1
+model,Model,O1-preview,1
+model,Model,OLMo,1
+model,Model,OncoLLM,1
+model,Model,OpenAI GPT-3.5 Turbo,1
+model,Model,OpenAI GPT-4,1
+model,Model,OpenAI GPT-4o,1
+model,Model,OpenAI GPT-5-mini,1
+model,Model,OpenAI GPT-5.2,1
+model,Model,OpenAI gpt-4o-mini,1
+model,Model,OpenAI o1-mini,1
+model,Model,OpenAI o3,1
+model,Model,OpenAI o3-mini (LLM judge),1
+model,Model,OpenAI-O1,1
+model,Model,OpenAI-O3,1
+model,Model,OpenAI-o1,1
+model,Model,OpenBioLLM 70B,1
+model,Model,OpenBioLLM-70b,1
+model,Model,OpenBioLLM-8B,1
+model,Model,OpenBioLLMLlama3-70B,1
+model,Model,OpenFlamingo,1
+model,Model,Orca2_13b,1
+model,Model,Orca2_7b,1
+model,Model,P2Med-MLLM,1
+model,Model,PEGASUS,1
+model,Model,PEGASUS-X,1
+model,Model,PEGASUS-x-base,1
+model,Model,PMC-LLAMA 13B,1
+model,Model,PMPRG,1
+model,Model,PRE-BARTaBT,1
+model,Model,PRIME-LLM,1
+model,Model,PaLM,1
+model,Model,PaLM-2-Text-Bison,1
+model,Model,PaLM2,1
+model,Model,Palmyra,1
+model,Model,Path-GPT-4o-mini-FT,1
+model,Model,Path-llama3.1-8B,1
+model,Model,PathAlign,1
+model,Model,Pathways Language Model-2,1
+model,Model,Perplexity AI,1
+model,Model,Perplexity Llama 3.1 Sonar/Default,1
+model,Model,PhenoGPT,1
+model,Model,PhenoGPT2,1
+model,Model,Phi,1
+model,Model,Phi-2,1
+model,Model,Phi-3 Mini,1
+model,Model,Phi-3 Vision,1
+model,Model,Phi-3 mini,1
+model,Model,Phi-3-mini,1
+model,Model,Phi-3.5,1
+model,Model,Phi-3.5-mini,1
+model,Model,Phi-4,1
+model,Model,Phi-4 14 billion,1
+model,Model,Phi-4 14B,1
+model,Model,Phi-4-14B,1
+model,Model,Phi-4-mini-instruct,1
+model,Model,Phi2,1
+model,Model,Phi3,1
+model,Model,Phi3 (3.8B),1
+model,Model,Phi3-Mini-4K-Instructor-3.5B,1
+model,Model,Phi3-mini,1
+model,Model,Phi3-mini-128,1
+model,Model,Phi3:3.8b-mini-instruct,1
+model,Model,Pixtral-12B,1
+model,Model,Prost-LM,1
+model,Model,PsychFound,1
+model,Model,Pythia-160m-deduped,1
+model,Model,Pythia-1B,1
+model,Model,Pythia-410M,1
+model,Model,Pythia-410m,1
+model,Model,Pythia-70M,1
+model,Model,Q-HEART,1
+model,Model,Qianwen2.0,1
+model,Model,Qianwen72B,1
+model,Model,QwQ-32B,1
+model,Model,Qwen (Tongyi Qianwen),1
+model,Model,Qwen 1.5-7B,1
+model,Model,Qwen 2.5 7b,1
+model,Model,Qwen 2.5 Coder-7B-Instruct,1
+model,Model,Qwen 2.5:14B,1
+model,Model,Qwen QWQ,1
+model,Model,Qwen-14B,1
+model,Model,Qwen-2,1
+model,Model,Qwen-2.5-14B,1
+model,Model,Qwen-2.5-7B,1
+model,Model,Qwen-3 0.6B,1
+model,Model,Qwen-3-32B,1
+model,Model,Qwen-3-80B,1
+model,Model,Qwen-3-8B,1
+model,Model,Qwen-32B,1
+model,Model,Qwen-7B-Chat,1
+model,Model,Qwen-7b,1
+model,Model,Qwen-Max,1
+model,Model,Qwen-v3-32B,1
+model,Model,Qwen1.5,1
+model,Model,Qwen1.5-72B,1
+model,Model,Qwen1.5-72b,1
+model,Model,Qwen2-1.5B,1
+model,Model,Qwen2-72B,1
+model,Model,Qwen2-7B,1
+model,Model,Qwen2-7B-Instruct,1
+model,Model,Qwen2-7b,1
+model,Model,Qwen2-VL,1
+model,Model,Qwen2.5-32B-Instruct,1
+model,Model,Qwen2.5-72B-Instruct,1
+model,Model,Qwen2.5-VL-72B,1
+model,Model,Qwen2.5-VL-72B-Instruct,1
+model,Model,Qwen3-0.6B,1
+model,Model,Qwen3-235B-A22B-Thinking-2507,1
+model,Model,Qwen3-30b-a3b-q8,1
+model,Model,Qwen3-4B-Thinking,1
+model,Model,Qwen3-8B-Base,1
+model,Model,Qwen3:30b-a3b,1
+model,Model,QwenMax,1
+model,Model,R1,1
+model,Model,R2Gen,1
+model,Model,RGRG,1
+model,Model,RUSSELL GPT,1
+model,Model,RadAlign,1
+model,Model,RadPhi2,1
+model,Model,RadPhi2-Base,1
+model,Model,Radialog,1
+model,Model,RamGPTL,1
+model,Model,RamGPTM,1
+model,Model,Rombos-LLM-V2.6-Qwen-14b,1
+model,Model,Russian GPT-3,1
+model,Model,SIGMA,1
+model,Model,SauerkrautLM variants,1
+model,Model,SauerkrautLM-Gemma,1
+model,Model,Sent-e-Med,1
+model,Model,Sequential pattern transformer (SPT),1
+model,Model,ShenNong,1
+model,Model,Sonnet-4.5,1
+model,Model,Spark3,1
+model,Model,SparkDesk,1
+model,Model,Starcoderbase-1B,1
+model,Model,Starcoderbase-3B,1
+model,Model,Starling,1
+model,Model,Starling-7B-beta,1
+model,Model,SumGPT,1
+model,Model,Symptom-GPT,1
+model,Model,Synapsis LLM,1
+model,Model,T5 large,1
+model,Model,T5-3B,1
+model,Model,T5-Efficient-BASE-DL2,1
+model,Model,T5-base,1
+model,Model,T5-large,1
+model,Model,TCMLLM-PR,1
+model,Model,TITAN,1
+model,Model,TenyxChat-7B,1
+model,Model,Text-to-Text Transfer Transformer (T5),1
+model,Model,Time-LLM,1
+model,Model,Time-MoE,1
+model,Model,Tulu2-70B,1
+model,Model,U-LLaMA,1
+model,Model,UIE-base,1
+model,Model,UniXGen,1
+model,Model,VILA-M3,1
+model,Model,VL-RiskFormer,1
+model,Model,VetLLM,1
+model,Model,Vicuna 13B,1
+model,Model,Vicuna-13B,1
+model,Model,Vicuna-13b,1
+model,Model,Vicuna-7B,1
+model,Model,Vicuna-v1.3-13b,1
+model,Model,VisualGPT,1
+model,Model,WSI-MLLM,1
+model,Model,WiNGPT2-9B,1
+model,Model,XGeM,1
+model,Model,Yi-34B,1
+model,Model,Zephyr,1
+model,Model,Zephyr-beta,1
+model,Model,Zhipu Qingyan,1
+model,Model,deepseek-r1 14B,1
+model,Model,deepseek-r1 70B,1
+model,Model,fine-tuned BioGPT-Large,1
+model,Model,fine-tuned LLaMA-7B,1
+model,Model,gemini-2.0-flash-lite,1
+model,Model,gemini-2.5-pro,1
+model,Model,gemma-3,1
+model,Model,gemma-3-31Bit,1
+model,Model,gemma-4-26B-it,1
+model,Model,gemma3-27b,1
+model,Model,gpt-35-turbo,1
+model,Model,gpt-35-turbo-16k,1
+model,Model,gpt-4,1
+model,Model,gpt-4.1-mini-2025-04-14,1
+model,Model,gpt-oss-120b,1
+model,Model,gpt-oss:120b,1
+model,Model,gpt-oss:20b,1
+model,Model,gpt4o-08-06,1
+model,Model,hippomistral,1
+model,Model,llama3-med (8B and 70B),1
+model,Model,llama3.3-70b,1
+model,Model,llama3.3:70b,1
+model,Model,llama3:70b,1
+model,Model,llama3:instruct,1
+model,Model,lung cancer-specific LLM,1
+model,Model,mBART,1
+model,Model,mBART-50,1
+model,Model,mT5-base,1
+model,Model,medAlpaca,1
+model,Model,meditron-7b,1
+model,Model,microsoft/BioGPT-Large,1
+model,Model,microsoft/BioGPT-Large-PubMedQA,1
+model,Model,microsoft/biogpt,1
+model,Model,mistral-small:24b,1
+model,Model,o3-mini-high,1
+model,Model,openbuddy-mistral-7b-v13.1,1
+model,Model,openchat_3.5,1
+model,Model,phi4-14b,1
+model,Model,qwen3:32b,1
+model,Model,qwq:32b,1
+model,Model,ruGPT-3,1
+model,Model,sdoh-llama-3-70B,1
+model,Model,"smaller Llama models (8B, 3B, and 1B)",1
+model,Model,sqlcoders,1
+model,Model,μ2LLM,1
+model_access,Model access,Unclear or other,1021
+model_access,Model access,Closed/proprietary only,517
+model_access,Model access,Open-weight only,334
+model_access,Model access,Both open-weight and proprietary,162
+outcome,Outcome,Model accuracy or task performance only,1898
+outcome,Outcome,Safety or error outcome,304
+outcome,Outcome,Other reported outcome,287
+outcome,Outcome,Workflow or time outcome,189
+outcome,Outcome,Clinician experience or burden,58
+outcome,Outcome,Patient outcome or experience,52
+outcome,Outcome,Not reported,33
+outcome,Outcome,"Clinician acceptance, edit, or override rate",25
+oversight,Oversight and governance,Not reported,1971
+oversight,Oversight and governance,Other oversight or governance,29
+oversight,Oversight and governance,Clinical safety or regulatory process described,13
+oversight,Oversight and governance,Mandatory clinician review or sign-off,11
+oversight,Oversight and governance,Escalation or failure pathway described,10
+oversight,Oversight and governance,Post-deployment monitoring or drift surveillance,3
+oversight,Oversight and governance,Optional clinician review,2
+public_dataset,Named public dataset,MIMIC-IV,144
+public_dataset,Named public dataset,MIMIC-III,99
+public_dataset,Named public dataset,MIMIC-CXR,82
+public_dataset,Named public dataset,i2b2 / n2c2,27
+public_dataset,Named public dataset,MIMIC (unspecified),26
+public_dataset,Named public dataset,eICU,11
+public_dataset,Named public dataset,PhysioNet,6
+safety,Safety evaluation,Not reported,1665
+safety,Safety evaluation,Hallucination or fabrication assessed,131
+safety,Safety evaluation,Error rate reported without severity grading,124
+safety,Safety evaluation,Other safety evaluation,104
+safety,Safety evaluation,Omission assessed,78
+safety,Safety evaluation,Harm or severity taxonomy applied,29
+safety,Safety evaluation,Clinical harm observed and reported,4
+safety,Safety evaluation,Safety or error outcome,1
+synthetic_data,Synthetic data,No use reported,1864
+synthetic_data,Synthetic data,Training/development only,74
+synthetic_data,Synthetic data,Evaluation only,63
+synthetic_data,Synthetic data,Both training/development and evaluation,18
+synthetic_data,Synthetic data,Other reported synthetic-data use,8
+synthetic_data,Synthetic data,Unclear phase,7
+trial_evidence,Trial evidence (title/abstract),None stated,1995
+trial_evidence,Trial evidence (title/abstract),Single-arm pilot implementation,16
+trial_evidence,Trial evidence (title/abstract),Other interventional study,14
+trial_evidence,Trial evidence (title/abstract),Randomized clinical trial,7
+trial_evidence,Trial evidence (title/abstract),Unclear,2

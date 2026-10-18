@@ -1,0 +1,15 @@
+entity_type,display_label,source_profile_field,compilation_rule
+dataset_validation_level,Dataset validation,dataset_validation_level,Single controlled label retained as reported
+clinical_translation_stage,Clinical translation,clinical_translation_stage,Single controlled label retained as reported
+dataset_provenance,Dataset provenance,dataset_provenance,Single controlled label retained as reported
+model,Model,model_name_normalized,Semicolon-delimited normalised model names
+model_access,Model access,model_access_category,"Grouped as open-weight, proprietary, both, or unclear/other"
+llm_use_mode,LLM use mode,llm_use_mode,Controlled labels split; free-text Other values grouped for the overview
+clinical_specialty,Clinical specialty,clinical_specialty,Controlled labels split; free-text Other values grouped for the overview
+public_dataset,Named public dataset,named_dataset_or_setting,Named public datasets extracted with documented patterns
+trial_evidence,Trial evidence (title/abstract),clinical_trial_evidence,Other interventional descriptions grouped without changing study text
+human_evidence,Human evaluation,human_comparison_or_review,Controlled labels split; free-text Other values grouped for the overview
+synthetic_data,Synthetic data,synthetic_data_use,Controlled label retained; free-text Other values grouped for the overview
+oversight,Oversight and governance,oversight_and_governance,Controlled labels split; free-text Other values grouped for the overview
+safety,Safety evaluation,safety_evaluation,Controlled labels split; free-text Other values grouped for the overview
+outcome,Outcome,outcome_measured,Controlled labels split; free-text Other values grouped for the overview

@@ -1,0 +1,17 @@
+{
+  "atlas_version": "1.0",
+  "run_date": "2026-09-30",
+  "source": "evidence_atlas/data/evidence_profiles_2026-06-01.csv",
+  "source_sha256": "2de20af22954cd594c4d06ad92729a04aa40f5887815550f42abb467d16c043c",
+  "preprint_source": "evidence_atlas/data/preprint_sensitivity_profiles_2026-06-01.csv",
+  "preprint_source_sha256": "278440b96d7a4ebf9697dd03faa6d718d2f38106915cbffb7133951b3e512cfa",
+  "study_count": 1870,
+  "preprint_count": 164,
+  "total_profile_count": 2034,
+  "entity_count": 1175,
+  "graph_node_count": 3209,
+  "graph_edge_count": 31544,
+  "aggregate_node_count": 113,
+  "aggregate_edge_count": 494,
+  "audit_candidate_count": 17
+}

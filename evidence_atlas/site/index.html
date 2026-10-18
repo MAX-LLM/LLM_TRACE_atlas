@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive evidence atlas for large language model studies using electronic health records.">
+  <title>LLM-EHR Evidence Atlas</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-mark" aria-hidden="true">EA</div>
+    <div class="brand-copy">
+      <h1>LLM-EHR Evidence Atlas</h1>
+      <p id="headerMeta">Profiled evidence through June 1, 2026</p>
+    </div>
+    <div class="header-stat" aria-label="Included reports">
+      <strong id="headerCount">1,870</strong>
+      <span id="headerLabel">peer-reviewed reports</span>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <section class="toolbar" aria-label="Atlas controls">
+      <label class="search-control">
+        <span>Search evidence</span>
+        <input id="searchInput" type="search" placeholder="Title, model, dataset, task, or record ID" autocomplete="off">
+      </label>
+      <nav class="view-tabs" aria-label="Atlas views">
+        <button class="tab-button active" data-view="map" type="button">Evidence map</button>
+        <button class="tab-button" data-view="studies" type="button">Studies</button>
+        <button class="tab-button" data-view="wiki" type="button">Wiki</button>
+      </nav>
+      <label class="preprint-toggle">
+        <input id="includePreprints" type="checkbox">
+        <span>Include preprints</span>
+      </label>
+      <label class="preprint-toggle">
+        <input id="showLowInformation" type="checkbox">
+        <span>Show unclear / not reported</span>
+      </label>
+      <button id="exportButton" class="command-button" type="button">Export filtered CSV</button>
+      <button id="resetButton" class="command-button secondary" type="button">Reset</button>
+    </section>
+
+    <section class="filters" aria-label="Evidence filters">
+      <label>
+        <span>Publication year</span>
+        <select id="yearFilter"></select>
+      </label>
+      <label>
+        <span>Dataset validation</span>
+        <select id="levelFilter"></select>
+      </label>
+      <label>
+        <span>Clinical translation</span>
+        <select id="stageFilter"></select>
+      </label>
+      <label>
+        <span>Dataset provenance</span>
+        <select id="provenanceFilter"></select>
+      </label>
+      <label>
+        <span>Model access</span>
+        <select id="accessFilter"></select>
+      </label>
+      <div class="filter-result" aria-live="polite">
+        <strong id="filteredCount">1,870</strong>
+        <span>reports shown</span>
+      </div>
+    </section>
+
+    <section id="mapView" class="view active" aria-label="Evidence knowledge graph">
+      <div class="map-layout">
+        <div class="graph-panel">
+          <div id="cy" role="img" aria-label="Interactive evidence knowledge graph"></div>
+          <div id="graphEmpty" class="empty-state" hidden>No connected entities match these filters.</div>
+          <div id="legend" class="legend" aria-label="Node types"></div>
+          <div class="graph-status"><span id="graphNodeCount"></span><span id="graphEdgeCount"></span></div>
+        </div>
+        <aside id="detailPanel" class="detail-panel" aria-live="polite"></aside>
+      </div>
+    </section>
+
+    <section id="studiesView" class="view" aria-label="Study browser">
+      <div class="studies-layout">
+        <div class="table-panel">
+          <table>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Study</th>
+                <th>Dataset validation</th>
+                <th>Clinical translation</th>
+                <th>Provenance</th>
+              </tr>
+            </thead>
+            <tbody id="studyTableBody"></tbody>
+          </table>
+          <div class="pagination">
+            <button id="previousPage" class="command-button secondary" type="button">Previous</button>
+            <span id="pageStatus"></span>
+            <button id="nextPage" class="command-button secondary" type="button">Next</button>
+          </div>
+        </div>
+        <aside id="studyPanel" class="detail-panel"></aside>
+      </div>
+    </section>
+
+    <section id="wikiView" class="view" aria-label="Evidence wiki">
+      <div class="wiki-layout">
+        <aside class="wiki-index">
+          <label>
+            <span>Wiki collection</span>
+            <select id="wikiType"></select>
+          </label>
+          <div id="wikiEntityList" class="wiki-entity-list"></div>
+        </aside>
+        <article id="wikiArticle" class="wiki-article"></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p id="disclaimer"></p>
+    <p>Systematic review cutoff: June 1, 2026</p>
+  </footer>
+
+  <script src="assets/cytoscape.min.js"></script>
+  <script src="atlas-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

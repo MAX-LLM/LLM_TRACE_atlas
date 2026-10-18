@@ -1,0 +1,58 @@
+# Private or licensed review data
+/database/
+/database_exports/
+/records/
+/full_text_audit/
+
+# Generated screening, profiling, validation, and reporting outcomes
+/dedup_results/
+/publication_reconciliation/
+/inclusion_results/
+/profile_results/
+/alignment_results/
+/dataset_provenance_results/
+/preprint_sensitivity/
+/final_report/
+/review_agent/runs/
+/review_agent/state/
+/outputs/
+/pilot_inputs/
+/local_archive/
+
+# Manuscript working files
+/LLM_Review/
+/overleaf/
+*.docx
+*.doc
+
+# Local environments, caches, logs, and temporary files
+/.Rlib/
+/.venv/
+/venv/
+/env/
+/.env
+/.env.*
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+slurm_logs/
+*.log
+*.pid
+tmp/
+tmp_*/
+.DS_Store
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*~
+/*.zip
